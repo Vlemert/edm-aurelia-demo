@@ -1,0 +1,20 @@
+name-tag {
+  display: block;
+  width: 300px;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: 30px;
+}
+
+.body {
+  background-color: #FFFFFF;
+  padding: 50px;
+  font-size: 300%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  min-height: 50px;
+}

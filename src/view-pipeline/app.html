@@ -1,0 +1,8 @@
+<template>
+  <require from="./hello.md"></require>
+  
+  <input type="text" value.bind="firstName"/>
+  <input type="text" value.bind="lastName"/>
+  
+  <hello color.bind="color">${firstName} ${lastName}</hello>
+</template>

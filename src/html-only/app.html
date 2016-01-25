@@ -1,0 +1,8 @@
+<template>
+  <require from="./name-tag.html"></require>
+  
+  <input type="text" value.bind="firstName"/>
+  <input type="color" value.bind="color"/>
+  
+  <name-tag color.bind="color">${firstName}</name-tag>
+</template>
