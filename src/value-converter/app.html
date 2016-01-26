@@ -1,5 +1,7 @@
 <template>
   <require from="./resources/exclaim"></require>
   
-  <div>${'some text' | exclaim}</div>
+  <input type="text" value.bind="name"/>
+  
+  <div>${name | exclaim}</div>
 </template>
